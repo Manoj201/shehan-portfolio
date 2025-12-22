@@ -1,0 +1,66 @@
+{
+  "header": {
+    "brand": "SK Kosulent",
+    "contactUs": "Contact Us"
+  },
+  "home": {
+    "title": "We will provide consultant",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+  },
+  "services": {
+    "advice": {
+      "title": "Advice",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore."
+    },
+    "travel": {
+      "title": "Travel",
+      "description": "Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo."
+    },
+    "wantToSpeak": {
+      "title": "Want to Speak",
+      "description": "Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur."
+    }
+  },
+  "pages": {
+    "advice": {
+      "title": "Expert Advice",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris."
+    },
+    "travel": {
+      "title": "Travel Services",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris."
+    },
+    "wantToSpeak": {
+      "title": "Want to Speak",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris."
+    }
+  },
+  "cta": {
+    "title": "Ready to Transform Your Business?",
+    "description": "Let's discuss how we can help you achieve your goals. Our experts are ready to guide you every step of the way.",
+    "button": "Contact Us Today"
+  },
+  "contact": {
+    "title": "Get in Touch",
+    "description": "We'd love to hear from you. Fill out the form below and we'll get back to you as soon as possible.",
+    "form": {
+      "name": "Name",
+      "namePlaceholder": "Your name",
+      "nameRequired": "Name is required",
+      "contactNumber": "Contact Number",
+      "contactNumberPlaceholder": "Your contact number",
+      "contactNumberRequired": "Contact number is required",
+      "email": "Email",
+      "emailPlaceholder": "your@email.com",
+      "emailInvalid": "Invalid email address",
+      "message": "Message",
+      "messagePlaceholder": "Tell us how we can help you...",
+      "messageMax": "Message must be 500 characters or less",
+      "submit": "Send Message",
+      "submitting": "Sending...",
+      "successTitle": "Message Sent!",
+      "successMessage": "Thank you for contacting us. We'll get back to you soon.",
+      "error": "Something went wrong. Please try again."
+    }
+  }
+}

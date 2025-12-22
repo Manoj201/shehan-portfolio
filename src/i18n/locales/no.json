@@ -1,0 +1,66 @@
+{
+  "header": {
+    "brand": "SK Kosulent",
+    "contactUs": "Kontakt Oss"
+  },
+  "home": {
+    "title": "Vi tilbyr konsulenttjenester",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+  },
+  "services": {
+    "advice": {
+      "title": "Rådgivning",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore."
+    },
+    "travel": {
+      "title": "Reise",
+      "description": "Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo."
+    },
+    "wantToSpeak": {
+      "title": "Vil Snakke",
+      "description": "Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur."
+    }
+  },
+  "pages": {
+    "advice": {
+      "title": "Ekspertrådgivning",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris."
+    },
+    "travel": {
+      "title": "Reisetjenester",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris."
+    },
+    "wantToSpeak": {
+      "title": "Vil Snakke",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris."
+    }
+  },
+  "cta": {
+    "title": "Klar til å Transformere Bedriften Din?",
+    "description": "La oss diskutere hvordan vi kan hjelpe deg med å nå målene dine. Våre eksperter er klare til å veilede deg hele veien.",
+    "button": "Kontakt Oss I Dag"
+  },
+  "contact": {
+    "title": "Ta Kontakt",
+    "description": "Vi vil gjerne høre fra deg. Fyll ut skjemaet nedenfor, så tar vi kontakt så snart som mulig.",
+    "form": {
+      "name": "Navn",
+      "namePlaceholder": "Ditt navn",
+      "nameRequired": "Navn er påkrevd",
+      "contactNumber": "Telefonnummer",
+      "contactNumberPlaceholder": "Ditt telefonnummer",
+      "contactNumberRequired": "Telefonnummer er påkrevd",
+      "email": "E-post",
+      "emailPlaceholder": "din@epost.no",
+      "emailInvalid": "Ugyldig e-postadresse",
+      "message": "Melding",
+      "messagePlaceholder": "Fortell oss hvordan vi kan hjelpe deg...",
+      "messageMax": "Meldingen må være 500 tegn eller mindre",
+      "submit": "Send Melding",
+      "submitting": "Sender...",
+      "successTitle": "Melding Sendt!",
+      "successMessage": "Takk for at du kontakter oss. Vi tar kontakt snart.",
+      "error": "Noe gikk galt. Vennligst prøv igjen."
+    }
+  }
+}
