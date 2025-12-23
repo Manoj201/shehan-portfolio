@@ -1,6 +1,6 @@
 {
   "header": {
-    "brand": "SK Kosulent",
+    "brand": "SK Konsulent",
     "contactUs": "Kontakt Oss"
   },
   "home": {
@@ -24,7 +24,29 @@
   "pages": {
     "advice": {
       "title": "Ekspertrådgivning",
-      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris."
+      "description": "Vi gir profesjonell veiledning om immigrasjon, tillatelser og juridiske forhold for å hjelpe deg med å navigere komplekse prosesser med selvtillit.",
+      "cards": {
+        "immigration": {
+          "title": "Rådgivning om Immigrasjonssaker",
+          "description": "Få ekspertveiledning om alle immigrasjonsrelaterte spørsmål og prosesser. Vi hjelper deg å forstå dine alternativer og navigere systemet effektivt."
+        },
+        "residence": {
+          "title": "Rådgivning om Oppholdstillatelser",
+          "description": "Profesjonell assistanse med søknader om oppholdstillatelse, fornyelser og krav. Vi sørger for at dokumentasjonen din er komplett og nøyaktig."
+        },
+        "work": {
+          "title": "Rådgivning om Arbeidstillatelser",
+          "description": "Omfattende støtte for søknader om arbeidstillatelse. Vi hjelper både arbeidsgivere og arbeidstakere med nødvendig dokumentasjon og prosedyrer."
+        },
+        "family": {
+          "title": "Rådgivning om Familiegjenforening",
+          "description": "Ekspertveiledning om familiegjenforeningsprosesser. Vi hjelper deg å bringe dine kjære sammen med riktig dokumentasjon og juridisk støtte."
+        },
+        "tax": {
+          "title": "Rådgivning om Skattekort",
+          "description": "Assistanse med skattekortsøknader og relaterte saker. Vi hjelper deg å forstå det norske skattesystemet og sikre overholdelse."
+        }
+      }
     },
     "travel": {
       "title": "Reisetjenester",
@@ -42,8 +64,15 @@
   },
   "contact": {
     "title": "Ta Kontakt",
-    "description": "Vi vil gjerne høre fra deg. Fyll ut skjemaet nedenfor, så tar vi kontakt så snart som mulig.",
+    "description": "Vi vil gjerne høre fra deg. Fortell oss hvordan vi kan hjelpe.",
+    "info": {
+      "email": "E-post",
+      "phone": "Telefon",
+      "location": "Sted"
+    },
     "form": {
+      "title": "Send oss en Melding",
+      "subtitle": "Fyll ut skjemaet nedenfor, så tar vi kontakt så snart som mulig.",
       "name": "Navn",
       "namePlaceholder": "Ditt navn",
       "nameRequired": "Navn er påkrevd",
@@ -60,6 +89,7 @@
       "submitting": "Sender...",
       "successTitle": "Melding Sendt!",
       "successMessage": "Takk for at du kontakter oss. Vi tar kontakt snart.",
+      "sendAnother": "Send En Ny Melding",
       "error": "Noe gikk galt. Vennligst prøv igjen."
     }
   }

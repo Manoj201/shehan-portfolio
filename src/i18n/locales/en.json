@@ -1,6 +1,6 @@
 {
   "header": {
-    "brand": "SK Kosulent",
+    "brand": "SK Konsulent",
     "contactUs": "Contact Us"
   },
   "home": {
@@ -24,7 +24,29 @@
   "pages": {
     "advice": {
       "title": "Expert Advice",
-      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris."
+      "description": "We provide professional guidance on immigration, permits, and legal matters to help you navigate complex processes with confidence.",
+      "cards": {
+        "immigration": {
+          "title": "Advice on Immigration Matters",
+          "description": "Get expert guidance on all immigration-related questions and processes. We help you understand your options and navigate the system effectively."
+        },
+        "residence": {
+          "title": "Advice on Residence Permits",
+          "description": "Professional assistance with residence permit applications, renewals, and requirements. We ensure your documentation is complete and accurate."
+        },
+        "work": {
+          "title": "Advice on Work Permits",
+          "description": "Comprehensive support for work permit applications. We help both employers and employees with the necessary documentation and procedures."
+        },
+        "family": {
+          "title": "Advice on Family Reunification",
+          "description": "Expert guidance on family reunification processes. We help you bring your loved ones together with proper documentation and legal support."
+        },
+        "tax": {
+          "title": "Advice on Tax Cards",
+          "description": "Assistance with tax card applications and related matters. We help you understand the Norwegian tax system and ensure compliance."
+        }
+      }
     },
     "travel": {
       "title": "Travel Services",
@@ -42,8 +64,15 @@
   },
   "contact": {
     "title": "Get in Touch",
-    "description": "We'd love to hear from you. Fill out the form below and we'll get back to you as soon as possible.",
+    "description": "We'd love to hear from you. Let us know how we can help.",
+    "info": {
+      "email": "Email",
+      "phone": "Phone",
+      "location": "Location"
+    },
     "form": {
+      "title": "Send us a Message",
+      "subtitle": "Fill out the form below and we'll get back to you as soon as possible.",
       "name": "Name",
       "namePlaceholder": "Your name",
       "nameRequired": "Name is required",
@@ -60,6 +89,7 @@
       "submitting": "Sending...",
       "successTitle": "Message Sent!",
       "successMessage": "Thank you for contacting us. We'll get back to you soon.",
+      "sendAnother": "Send Another Message",
       "error": "Something went wrong. Please try again."
     }
   }

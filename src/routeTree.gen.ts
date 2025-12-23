@@ -11,6 +11,7 @@
 import { Route as rootRouteImport } from './routes/__root'
 import { Route as WantToSpeakRouteImport } from './routes/want-to-speak'
 import { Route as TravelRouteImport } from './routes/travel'
+import { Route as ContactRouteImport } from './routes/contact'
 import { Route as AdviceRouteImport } from './routes/advice'
 import { Route as IndexRouteImport } from './routes/index'
 
@@ -22,6 +23,11 @@ const WantToSpeakRoute = WantToSpeakRouteImport.update({
 const TravelRoute = TravelRouteImport.update({
   id: '/travel',
   path: '/travel',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const ContactRoute = ContactRouteImport.update({
+  id: '/contact',
+  path: '/contact',
   getParentRoute: () => rootRouteImport,
 } as any)
 const AdviceRoute = AdviceRouteImport.update({
@@ -38,12 +44,14 @@ const IndexRoute = IndexRouteImport.update({
 export interface FileRoutesByFullPath {
   '/': typeof IndexRoute
   '/advice': typeof AdviceRoute
+  '/contact': typeof ContactRoute
   '/travel': typeof TravelRoute
   '/want-to-speak': typeof WantToSpeakRoute
 }
 export interface FileRoutesByTo {
   '/': typeof IndexRoute
   '/advice': typeof AdviceRoute
+  '/contact': typeof ContactRoute
   '/travel': typeof TravelRoute
   '/want-to-speak': typeof WantToSpeakRoute
 }
@@ -51,20 +59,22 @@ export interface FileRoutesById {
   __root__: typeof rootRouteImport
   '/': typeof IndexRoute
   '/advice': typeof AdviceRoute
+  '/contact': typeof ContactRoute
   '/travel': typeof TravelRoute
   '/want-to-speak': typeof WantToSpeakRoute
 }
 export interface FileRouteTypes {
   fileRoutesByFullPath: FileRoutesByFullPath
-  fullPaths: '/' | '/advice' | '/travel' | '/want-to-speak'
+  fullPaths: '/' | '/advice' | '/contact' | '/travel' | '/want-to-speak'
   fileRoutesByTo: FileRoutesByTo
-  to: '/' | '/advice' | '/travel' | '/want-to-speak'
-  id: '__root__' | '/' | '/advice' | '/travel' | '/want-to-speak'
+  to: '/' | '/advice' | '/contact' | '/travel' | '/want-to-speak'
+  id: '__root__' | '/' | '/advice' | '/contact' | '/travel' | '/want-to-speak'
   fileRoutesById: FileRoutesById
 }
 export interface RootRouteChildren {
   IndexRoute: typeof IndexRoute
   AdviceRoute: typeof AdviceRoute
+  ContactRoute: typeof ContactRoute
   TravelRoute: typeof TravelRoute
   WantToSpeakRoute: typeof WantToSpeakRoute
 }
@@ -83,6 +93,13 @@ declare module '@tanstack/react-router' {
       path: '/travel'
       fullPath: '/travel'
       preLoaderRoute: typeof TravelRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/contact': {
+      id: '/contact'
+      path: '/contact'
+      fullPath: '/contact'
+      preLoaderRoute: typeof ContactRouteImport
       parentRoute: typeof rootRouteImport
     }
     '/advice': {
@@ -105,6 +122,7 @@ declare module '@tanstack/react-router' {
 const rootRouteChildren: RootRouteChildren = {
   IndexRoute: IndexRoute,
   AdviceRoute: AdviceRoute,
+  ContactRoute: ContactRoute,
   TravelRoute: TravelRoute,
   WantToSpeakRoute: WantToSpeakRoute,
 }

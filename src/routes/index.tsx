@@ -1,4 +1,3 @@
-import { useState } from "react";
 import { createFileRoute, Link } from "@tanstack/react-router";
 import { useTranslation } from "react-i18next";
 import {
@@ -7,7 +6,6 @@ import {
   CardHeader,
   CardTitle,
 } from "@/components/ui/card";
-import { ContactDialog } from "@/components/contact-dialog";
 import { Button } from "@/components/ui/button";
 import { Lightbulb, Plane, MessageCircle, Sparkles } from "lucide-react";
 import type { LucideIcon } from "lucide-react";
@@ -45,7 +43,6 @@ const services: Service[] = [
 ];
 
 function HomePage() {
-  const [contactOpen, setContactOpen] = useState(false);
   const { t } = useTranslation();
 
   return (
@@ -107,18 +104,16 @@ function HomePage() {
           <p className="mx-auto mt-4 max-w-xl text-lg text-white/80">
             {t("cta.description")}
           </p>
-          <Button
-            size="lg"
-            onClick={() => setContactOpen(true)}
-            className="mt-8 bg-white text-purple-700 hover:bg-white/90 hover:scale-105 transition-transform duration-200"
-          >
-            {t("cta.button")}
-          </Button>
+          <Link to="/contact">
+            <Button
+              size="lg"
+              className="mt-8 bg-white text-purple-700 hover:bg-white/90 hover:scale-105 transition-transform duration-200"
+            >
+              {t("cta.button")}
+            </Button>
+          </Link>
         </div>
       </div>
-
-      {/* Contact Dialog */}
-      <ContactDialog open={contactOpen} onOpenChange={setContactOpen} />
     </div>
   );
 }
