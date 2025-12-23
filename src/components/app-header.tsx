@@ -2,6 +2,7 @@ import { Link, useLocation, useRouter } from "@tanstack/react-router";
 import { useTranslation } from "react-i18next";
 import { Button } from "@/components/ui/button";
 import { MessageCircle, Languages, ArrowLeft } from "lucide-react";
+import logo from "@/assets/logo.png";
 
 export function AppHeader() {
   const { t, i18n } = useTranslation();
@@ -22,7 +23,7 @@ export function AppHeader() {
 
   return (
     <header className="sticky top-0 z-50 w-full border-b border-border/40 bg-background/95 backdrop-blur supports-[backdrop-filter]:bg-background/60">
-      <div className="container mx-auto flex h-16 items-center justify-between px-4">
+      <div className="container mx-auto flex h-20 items-center justify-between px-4">
         <div className="flex items-center gap-3">
           {isChildRoute && (
             <Button
@@ -35,9 +36,11 @@ export function AppHeader() {
             </Button>
           )}
           <Link to="/" className="flex items-center">
-            <span className="text-xl font-bold tracking-tight">
-              {t("header.brand")}
-            </span>
+            <img
+              src={logo}
+              alt="SK Konsulent"
+              className="h-14 w-auto"
+            />
           </Link>
         </div>
 
