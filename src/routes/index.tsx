@@ -49,7 +49,10 @@ function HomePage() {
     <div className="container mx-auto flex h-full flex-col justify-between px-4 py-8">
       {/* Header Section */}
       <div className="text-center">
-        <h1 className="animate-fade-in-up text-5xl font-bold md:text-6xl lg:text-7xl">
+        <p className="animate-fade-in-up mb-4 text-2xl font-semibold tracking-wide text-white md:text-3xl lg:text-4xl">
+          {t("home.subtitle")}
+        </p>
+        <h1 className="animate-fade-in-up animation-delay-100 text-5xl font-bold md:text-6xl lg:text-7xl">
           <span className="bg-gradient-to-r from-pink-500 via-purple-500 to-blue-500 bg-clip-text text-transparent">
             {t("home.title")}
           </span>

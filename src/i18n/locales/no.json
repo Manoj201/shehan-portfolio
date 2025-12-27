@@ -4,6 +4,7 @@
     "contactUs": "Kontakt Oss"
   },
   "home": {
+    "subtitle": "Shehan Kolambage Konsulent",
     "title": "Vi tilbyr konsulenttjenester",
     "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
   },
@@ -49,8 +50,75 @@
       }
     },
     "travel": {
-      "title": "Reisetjenester",
-      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris."
+      "title": "Opplev Sri Lanka",
+      "description": "Opplev magien i Sri Lanka - et tropisk paradis med eldgamle templer, uberørte strender, frodige teplantasjer og utrolig dyreliv. La oss skape din perfekte reise.",
+      "badge": "Eksklusive Reisepakker",
+      "packagesTitle": "Velg Ditt Eventyr",
+      "packagesSubtitle": "Skreddersydde pakker for alle typer reisende",
+      "days": "dager",
+      "from": "Fra",
+      "perPerson": "per person",
+      "popular": "Populær",
+      "bookNow": "Bestill Nå",
+      "packageDesc": "Alt-inkludert Sri Lanka opplevelse",
+      "customTitle": "Trenger du en Tilpasset Pakke?",
+      "customDesc": "Vi kan lage en personlig reiseplan basert på dine preferanser og budsjett.",
+      "contactUs": "Kontakt Oss",
+      "moreInfo": "Mer Informasjon",
+      "drawer": {
+        "about": "Om Denne Pakken",
+        "included": "Hva er Inkludert",
+        "flights": "Tur-retur fly",
+        "hotels": "Hotellovernatting",
+        "meals": "Daglig frokost",
+        "tours": "Guidede turer",
+        "itinerary": "Reiserute Høydepunkter",
+        "destinations": "Destinasjoner",
+        "highlights": "Pakke Høydepunkter",
+        "bookThis": "Bestill Denne Pakken"
+      },
+      "packages": {
+        "week1": {
+          "title": "1 Ukes Flukt",
+          "feature1": "Colombo bytur",
+          "feature2": "Sigiriya Klippefestning",
+          "feature3": "Strandresort opphold",
+          "feature4": "Flyplasstransport",
+          "details": "Perfekt for en rask ferie, denne 7-dagers pakken dekker Sri Lankas must-see høydepunkter. Start i livlige Colombo, klatre den gamle Sigiriya Klippefestningen, og slapp av på et vakkert strandresort. Ideell for førstegangsbesøkende som ønsker en smak av Sri Lankas mangfoldige tilbud.",
+          "itinerary": "Dag 1-2: Colombo utforskning og byhøydepunkter. Dag 3-4: Sigiriya Klippefestning og Dambulla Huletempel. Dag 5-7: Strandresort avslapning i Bentota eller Hikkaduwa med valgfrie vannsporter.",
+          "includes": "Tur-retur fly, 4-stjerners hoteller, daglig frokost, flyplasstransport, engelsktalende guide"
+        },
+        "days10": {
+          "title": "10 Dagers Oppdager",
+          "feature1": "Kulturtriangeltur",
+          "feature2": "Safari i Yala Nasjonalpark",
+          "feature3": "Te-land opplevelse",
+          "feature4": "Kyst avslapning",
+          "details": "Vår mest populære pakke! Opplev det beste av Sri Lanka på 10 dager - fra eldgamle templer til villmarkssafarier, disige teplantasjer til gylne strender. Denne perfekt balanserte reiseruten kombinerer kultur, natur og avslapning.",
+          "itinerary": "Dag 1-3: Kulturtriangelet - Sigiriya, Polonnaruwa, Anuradhapura. Dag 4-5: Kandy og te-landet. Dag 6-7: Yala Nasjonalpark safari. Dag 8-10: Sørkysten strender og Galle Fort.",
+          "includes": "Tur-retur fly, boutiquehoteller, daglig frokost, alle overføringer, safari jeep, togbilletter, engelsktalende guide"
+        },
+        "weeks2": {
+          "title": "2 Ukers Oppdagelse",
+          "feature1": "Komplett øytur",
+          "feature2": "Hvalsafari i Mirissa",
+          "feature3": "Togtur gjennom åsene",
+          "feature4": "Matkurs inkludert",
+          "details": "Oppdag Sri Lanka i et avslappet tempo med denne omfattende 14-dagers reisen. Fra Kulturtriangelet til høylandet, og fra hvalsafari til matkurs - opplev autentisk Sri Lanka med tid til virkelig å knytte bånd med hver destinasjon.",
+          "itinerary": "Dag 1-4: Kulturtriangelet utforskning. Dag 5-7: Kandy, Nuwara Eliya og naturskjønn togtur. Dag 8-9: Ellas fantastiske landskap. Dag 10-11: Yala safari og Tissamaharama. Dag 12-14: Mirissa hvalsafari og Galle kulturarv.",
+          "includes": "Tur-retur fly, premium hoteller, frokost og utvalgte middager, alle overføringer, matkurs, hvalsafari, engelsktalende guide"
+        },
+        "days20": {
+          "title": "20 Dagers Ultimate",
+          "feature1": "Omfattende Sri Lanka",
+          "feature2": "Alle hovedattraksjoner",
+          "feature3": "Premium overnatting",
+          "feature4": "Privat guide hele veien",
+          "details": "Den ultimate Sri Lanka-opplevelsen! Denne 20-dagers luksusreisen dekker hvert hjørne av øya med premium overnatting og en dedikert privat guide. Fra skjulte perler til ikoniske landemerker - ingen stein er uberørt i dette omfattende eventyret.",
+          "itinerary": "Komplett øyrunde inkludert Jaffna i nord, østkystens strender, Kulturtriangelet, høylandet, nasjonalparker og hele sørkysten. Inkluderer opplevelser utenfor allfarvei og eksklusiv tilgang til lokalsamfunn.",
+          "includes": "Tur-retur fly, 5-stjerners hoteller og boutiqueopphold, alle måltider, privat kjøretøy og sjåfør, personlig guide, alle aktiviteter og inngangsbilletter, spesielle opplevelser"
+        }
+      }
     },
     "wantToSpeak": {
       "title": "Vil Snakke",
@@ -69,7 +137,7 @@
       "title": "Kontaktinformasjon",
       "email": "E-post",
       "phone": "Telefon",
-      "location": "Sted",
+      "organization": "Organisasjonsnummer",
       "note": "Vi svarer vanligvis innen 24 timer. For hastesaker, vennligst ring oss direkte."
     },
     "form": {

@@ -4,6 +4,7 @@
     "contactUs": "Contact Us"
   },
   "home": {
+    "subtitle": "Shehan Kolambage Konsulent",
     "title": "We will provide consultant",
     "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
   },
@@ -49,8 +50,75 @@
       }
     },
     "travel": {
-      "title": "Travel Services",
-      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris."
+      "title": "Discover Sri Lanka",
+      "description": "Experience the magic of Sri Lanka - a tropical paradise with ancient temples, pristine beaches, lush tea plantations, and incredible wildlife. Let us create your perfect journey.",
+      "badge": "Exclusive Travel Packages",
+      "packagesTitle": "Choose Your Adventure",
+      "packagesSubtitle": "Tailored packages for every type of traveler",
+      "days": "days",
+      "from": "From",
+      "perPerson": "per person",
+      "popular": "Popular",
+      "bookNow": "Book Now",
+      "packageDesc": "All-inclusive Sri Lanka experience",
+      "customTitle": "Need a Custom Package?",
+      "customDesc": "We can create a personalized itinerary based on your preferences and budget.",
+      "contactUs": "Contact Us",
+      "moreInfo": "More Information",
+      "drawer": {
+        "about": "About This Package",
+        "included": "What's Included",
+        "flights": "Return flights",
+        "hotels": "Hotel accommodation",
+        "meals": "Daily breakfast",
+        "tours": "Guided tours",
+        "itinerary": "Itinerary Highlights",
+        "destinations": "Destinations",
+        "highlights": "Package Highlights",
+        "bookThis": "Book This Package"
+      },
+      "packages": {
+        "week1": {
+          "title": "1 Week Escape",
+          "feature1": "Colombo city tour",
+          "feature2": "Sigiriya Rock Fortress",
+          "feature3": "Beach resort stay",
+          "feature4": "Airport transfers",
+          "details": "Perfect for a quick getaway, this 7-day package covers Sri Lanka's must-see highlights. Start in vibrant Colombo, climb the ancient Sigiriya Rock Fortress, and unwind at a beautiful beach resort. Ideal for first-time visitors wanting a taste of Sri Lanka's diverse offerings.",
+          "itinerary": "Day 1-2: Colombo exploration & city highlights. Day 3-4: Sigiriya Rock Fortress & Dambulla Cave Temple. Day 5-7: Beach resort relaxation in Bentota or Hikkaduwa with optional water sports.",
+          "includes": "Return flights, 4-star hotels, daily breakfast, airport transfers, English-speaking guide"
+        },
+        "days10": {
+          "title": "10 Days Explorer",
+          "feature1": "Cultural triangle tour",
+          "feature2": "Safari at Yala National Park",
+          "feature3": "Tea country experience",
+          "feature4": "Coastal relaxation",
+          "details": "Our most popular package! Experience the best of Sri Lanka in 10 days - from ancient temples to wildlife safaris, misty tea plantations to golden beaches. This perfectly balanced itinerary combines culture, nature, and relaxation.",
+          "itinerary": "Day 1-3: Cultural Triangle - Sigiriya, Polonnaruwa, Anuradhapura. Day 4-5: Kandy & tea country. Day 6-7: Yala National Park safari. Day 8-10: Southern coast beaches & Galle Fort.",
+          "includes": "Return flights, boutique hotels, daily breakfast, all transfers, safari jeep, train tickets, English-speaking guide"
+        },
+        "weeks2": {
+          "title": "2 Weeks Discovery",
+          "feature1": "Complete island tour",
+          "feature2": "Whale watching in Mirissa",
+          "feature3": "Train ride through hills",
+          "feature4": "Cooking class included",
+          "details": "Discover Sri Lanka at a relaxed pace with this comprehensive 14-day journey. From the Cultural Triangle to the hill country, and from whale watching to cooking classes - experience authentic Sri Lanka with time to truly connect with each destination.",
+          "itinerary": "Day 1-4: Cultural Triangle exploration. Day 5-7: Kandy, Nuwara Eliya & scenic train journey. Day 8-9: Ella's stunning landscapes. Day 10-11: Yala safari & Tissamaharama. Day 12-14: Mirissa whale watching & Galle heritage.",
+          "includes": "Return flights, premium hotels, breakfast & select dinners, all transfers, cooking class, whale watching tour, English-speaking guide"
+        },
+        "days20": {
+          "title": "20 Days Ultimate",
+          "feature1": "Comprehensive Sri Lanka",
+          "feature2": "All major attractions",
+          "feature3": "Premium accommodations",
+          "feature4": "Private guide throughout",
+          "details": "The ultimate Sri Lankan experience! This 20-day luxury journey covers every corner of the island with premium accommodations and a dedicated private guide. From hidden gems to iconic landmarks - no stone left unturned in this comprehensive adventure.",
+          "itinerary": "Complete island circuit including Jaffna in the north, east coast beaches, Cultural Triangle, hill country, national parks, and the entire southern coast. Includes off-the-beaten-path experiences and exclusive access to local communities.",
+          "includes": "Return flights, 5-star hotels & boutique stays, all meals, private vehicle & driver, personal guide, all activities & entrance fees, special experiences"
+        }
+      }
     },
     "wantToSpeak": {
       "title": "Want to Speak",
@@ -69,7 +137,7 @@
       "title": "Contact Information",
       "email": "Email",
       "phone": "Phone",
-      "location": "Location",
+      "organization": "Organization Number",
       "note": "We typically respond within 24 hours. For urgent matters, please call us directly."
     },
     "form": {

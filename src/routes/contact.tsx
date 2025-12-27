@@ -147,20 +147,16 @@ function ContactPage() {
                   </div>
                 </a>
 
-                {/* Location */}
+                {/* Organization */}
                 <div className="flex items-start gap-4 rounded-xl p-3">
                   <div className="flex h-11 w-11 shrink-0 items-center justify-center rounded-xl bg-gradient-to-br from-blue-500 to-indigo-600 shadow-lg shadow-blue-500/20">
                     <MapPin className="h-5 w-5 text-white" />
                   </div>
                   <div>
                     <p className="text-sm text-muted-foreground">
-                      {t("contact.info.location")}
+                      {t("contact.info.organization")}
                     </p>
-                    <p className="font-medium text-white">
-                      Bøgardsvegen 50A
-                      <br />
-                      6814 Førde, Norway
-                    </p>
+                    <p className="font-medium text-white">936 547 001</p>
                   </div>
                 </div>
               </div>
