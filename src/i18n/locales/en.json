@@ -66,9 +66,11 @@
     "title": "Get in Touch",
     "description": "We'd love to hear from you. Let us know how we can help.",
     "info": {
+      "title": "Contact Information",
       "email": "Email",
       "phone": "Phone",
-      "location": "Location"
+      "location": "Location",
+      "note": "We typically respond within 24 hours. For urgent matters, please call us directly."
     },
     "form": {
       "title": "Send us a Message",

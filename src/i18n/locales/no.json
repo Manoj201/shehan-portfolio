@@ -66,9 +66,11 @@
     "title": "Ta Kontakt",
     "description": "Vi vil gjerne høre fra deg. Fortell oss hvordan vi kan hjelpe.",
     "info": {
+      "title": "Kontaktinformasjon",
       "email": "E-post",
       "phone": "Telefon",
-      "location": "Sted"
+      "location": "Sted",
+      "note": "Vi svarer vanligvis innen 24 timer. For hastesaker, vennligst ring oss direkte."
     },
     "form": {
       "title": "Send oss en Melding",
