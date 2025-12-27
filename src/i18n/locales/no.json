@@ -6,7 +6,7 @@
   "home": {
     "subtitle": "Shehan Kolambage Konsulent",
     "title": "Vi tilbyr konsulenttjenester",
-    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+    "description": "Din pålitelige partner for immigrasjonsrådgivning og reisetjenester i Norge. Vi tilbyr ekspertveiledning om oppholdstillatelser, arbeidstillatelser, familiegjenforening og skattesaker. I tillegg kan du oppdage våre eksklusive Sri Lanka-reisepakker for et uforglemmelig eventyr."
   },
   "services": {
     "advice": {
@@ -25,29 +25,40 @@
   "pages": {
     "advice": {
       "title": "Ekspertrådgivning",
-      "description": "Vi gir profesjonell veiledning om immigrasjon, tillatelser og juridiske forhold for å hjelpe deg med å navigere komplekse prosesser med selvtillit.",
+      "description": "Naviger det norske immigrasjonssystemet med selvtillit. Våre erfarne konsulenter gir klar, profesjonell veiledning om tillatelser, dokumentasjon og juridiske krav.",
+      "badge": "Profesjonell Veiledning",
+      "benefits": {
+        "expert": "Ekspertkonsulenter",
+        "quick": "Rask responstid",
+        "trusted": "Betrodd av hundrevis"
+      },
+      "servicesTitle": "Våre Rådgivningstjenester",
+      "servicesSubtitle": "Klikk på en tjeneste for å komme i kontakt med oss",
       "cards": {
         "immigration": {
-          "title": "Rådgivning om Immigrasjonssaker",
+          "title": "Immigrasjonssaker",
           "description": "Få ekspertveiledning om alle immigrasjonsrelaterte spørsmål og prosesser. Vi hjelper deg å forstå dine alternativer og navigere systemet effektivt."
         },
         "residence": {
-          "title": "Rådgivning om Oppholdstillatelser",
+          "title": "Oppholdstillatelser",
           "description": "Profesjonell assistanse med søknader om oppholdstillatelse, fornyelser og krav. Vi sørger for at dokumentasjonen din er komplett og nøyaktig."
         },
         "work": {
-          "title": "Rådgivning om Arbeidstillatelser",
+          "title": "Arbeidstillatelser",
           "description": "Omfattende støtte for søknader om arbeidstillatelse. Vi hjelper både arbeidsgivere og arbeidstakere med nødvendig dokumentasjon og prosedyrer."
         },
         "family": {
-          "title": "Rådgivning om Familiegjenforening",
+          "title": "Familiegjenforening",
           "description": "Ekspertveiledning om familiegjenforeningsprosesser. Vi hjelper deg å bringe dine kjære sammen med riktig dokumentasjon og juridisk støtte."
         },
         "tax": {
-          "title": "Rådgivning om Skattekort",
+          "title": "Skattekort",
           "description": "Assistanse med skattekortsøknader og relaterte saker. Vi hjelper deg å forstå det norske skattesystemet og sikre overholdelse."
         }
-      }
+      },
+      "ctaTitle": "Trenger du Ekspertråd?",
+      "ctaDescription": "Ikke naviger det komplekse immigrasjonssystemet alene. Våre eksperter er klare til å veilede deg gjennom hvert steg i prosessen.",
+      "ctaButton": "Få Gratis Konsultasjon"
     },
     "travel": {
       "title": "Opplev Sri Lanka",
@@ -121,8 +132,42 @@
       }
     },
     "wantToSpeak": {
-      "title": "Vil Snakke",
-      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris."
+      "title": "La Oss Snakke",
+      "description": "Har du spørsmål om immigrasjon, tillatelser eller reise? Bestill en personlig konsultasjon med våre eksperter. Vi er her for å lytte, veilede og hjelpe deg med å finne de beste løsningene.",
+      "badge": "Personlig Konsultasjon",
+      "typesTitle": "Velg Din Konsultasjonsmetode",
+      "types": {
+        "phone": {
+          "title": "Telefonsamtale",
+          "description": "Raskt og praktisk. Få ekspertråd fra hvor som helst med en planlagt telefonkonsultasjon."
+        },
+        "video": {
+          "title": "Videomøte",
+          "description": "Ansikt-til-ansikt konsultasjon via videosamtale. Perfekt for detaljerte diskusjoner og dokumentgjennomgang."
+        },
+        "inPerson": {
+          "title": "Personlig Møte",
+          "description": "Møt oss på vårt kontor i Førde for en omfattende konsultasjonsopplevelse."
+        }
+      },
+      "whyTitle": "Hvorfor Konsultere Med Oss?",
+      "benefits": {
+        "flexible": "Fleksibel timebestilling",
+        "confidential": "100% konfidensielt",
+        "multilingual": "Flerspråklig støtte"
+      },
+      "discussTitle": "Hva Vi Kan Diskutere",
+      "topics": {
+        "immigration": "Immigrasjonssaker og rådgivning",
+        "residence": "Søknader om oppholdstillatelse",
+        "work": "Veiledning om arbeidstillatelse",
+        "family": "Familiegjenforeningsprosess",
+        "tax": "Hjelp med skattekort",
+        "travel": "Sri Lanka reiseplanlegging"
+      },
+      "ctaTitle": "Klar til å Bestille?",
+      "ctaDescription": "Bestill din konsultasjon i dag. Vi tar kontakt innen 24 timer for å bekrefte avtalen din.",
+      "ctaButton": "Kontakt Oss Nå"
     }
   },
   "cta": {

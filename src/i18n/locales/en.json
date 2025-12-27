@@ -6,7 +6,7 @@
   "home": {
     "subtitle": "Shehan Kolambage Konsulent",
     "title": "We will provide consultant",
-    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+    "description": "Your trusted partner for immigration consulting and travel services in Norway. We offer expert guidance on residence permits, work permits, family reunification, and tax matters. Plus, discover our exclusive Sri Lanka travel packages for an unforgettable adventure."
   },
   "services": {
     "advice": {
@@ -25,29 +25,40 @@
   "pages": {
     "advice": {
       "title": "Expert Advice",
-      "description": "We provide professional guidance on immigration, permits, and legal matters to help you navigate complex processes with confidence.",
+      "description": "Navigate the Norwegian immigration system with confidence. Our experienced consultants provide clear, professional guidance on permits, documentation, and legal requirements.",
+      "badge": "Professional Guidance",
+      "benefits": {
+        "expert": "Expert consultants",
+        "quick": "Fast response time",
+        "trusted": "Trusted by hundreds"
+      },
+      "servicesTitle": "Our Advisory Services",
+      "servicesSubtitle": "Click on any service to get in touch with us",
       "cards": {
         "immigration": {
-          "title": "Advice on Immigration Matters",
+          "title": "Immigration Matters",
           "description": "Get expert guidance on all immigration-related questions and processes. We help you understand your options and navigate the system effectively."
         },
         "residence": {
-          "title": "Advice on Residence Permits",
+          "title": "Residence Permits",
           "description": "Professional assistance with residence permit applications, renewals, and requirements. We ensure your documentation is complete and accurate."
         },
         "work": {
-          "title": "Advice on Work Permits",
+          "title": "Work Permits",
           "description": "Comprehensive support for work permit applications. We help both employers and employees with the necessary documentation and procedures."
         },
         "family": {
-          "title": "Advice on Family Reunification",
+          "title": "Family Reunification",
           "description": "Expert guidance on family reunification processes. We help you bring your loved ones together with proper documentation and legal support."
         },
         "tax": {
-          "title": "Advice on Tax Cards",
+          "title": "Tax Cards",
           "description": "Assistance with tax card applications and related matters. We help you understand the Norwegian tax system and ensure compliance."
         }
-      }
+      },
+      "ctaTitle": "Need Expert Advice?",
+      "ctaDescription": "Don't navigate the complex immigration system alone. Our experts are ready to guide you through every step of the process.",
+      "ctaButton": "Get Free Consultation"
     },
     "travel": {
       "title": "Discover Sri Lanka",
@@ -121,8 +132,42 @@
       }
     },
     "wantToSpeak": {
-      "title": "Want to Speak",
-      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris."
+      "title": "Let's Talk",
+      "description": "Have questions about immigration, permits, or travel? Schedule a personal consultation with our experts. We're here to listen, guide, and help you find the best solutions.",
+      "badge": "Personal Consultation",
+      "typesTitle": "Choose Your Consultation Method",
+      "types": {
+        "phone": {
+          "title": "Phone Call",
+          "description": "Quick and convenient. Get expert advice from anywhere with a scheduled phone consultation."
+        },
+        "video": {
+          "title": "Video Meeting",
+          "description": "Face-to-face consultation via video call. Perfect for detailed discussions and document review."
+        },
+        "inPerson": {
+          "title": "In-Person Meeting",
+          "description": "Meet us at our office in Førde for a comprehensive consultation experience."
+        }
+      },
+      "whyTitle": "Why Consult With Us?",
+      "benefits": {
+        "flexible": "Flexible scheduling",
+        "confidential": "100% confidential",
+        "multilingual": "Multilingual support"
+      },
+      "discussTitle": "What We Can Discuss",
+      "topics": {
+        "immigration": "Immigration matters & advice",
+        "residence": "Residence permit applications",
+        "work": "Work permit guidance",
+        "family": "Family reunification process",
+        "tax": "Tax card assistance",
+        "travel": "Sri Lanka travel planning"
+      },
+      "ctaTitle": "Ready to Schedule?",
+      "ctaDescription": "Book your consultation today. We'll get back to you within 24 hours to confirm your appointment.",
+      "ctaButton": "Contact Us Now"
     }
   },
   "cta": {
