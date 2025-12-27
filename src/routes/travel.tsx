@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { createFileRoute } from "@tanstack/react-router";
+import { createFileRoute, Link } from "@tanstack/react-router";
 import { useTranslation } from "react-i18next";
 import {
   Card,
@@ -301,16 +301,18 @@ function TravelPage() {
                 </div>
 
                 {/* CTA Button */}
-                <Button
-                  className={`w-full transition-all duration-300 ${
-                    pkg.popular
-                      ? "bg-gradient-to-r from-pink-500 via-purple-500 to-blue-500 text-white hover:shadow-lg hover:shadow-purple-500/30"
-                      : "bg-white/10 text-white hover:bg-white/20"
-                  }`}
-                >
-                  <Sparkles className="mr-2 h-4 w-4" />
-                  {t("pages.travel.bookNow")}
-                </Button>
+                <Link to="/contact" onClick={(e) => e.stopPropagation()}>
+                  <Button
+                    className={`w-full transition-all duration-300 ${
+                      pkg.popular
+                        ? "bg-gradient-to-r from-pink-500 via-purple-500 to-blue-500 text-white hover:shadow-lg hover:shadow-purple-500/30"
+                        : "bg-white/10 text-white hover:bg-white/20"
+                    }`}
+                  >
+                    <Sparkles className="mr-2 h-4 w-4" />
+                    {t("pages.travel.bookNow")}
+                  </Button>
+                </Link>
               </CardContent>
             </Card>
           ))}
