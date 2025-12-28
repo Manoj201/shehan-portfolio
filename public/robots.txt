@@ -1,4 +1,12 @@
+# robots.txt for SK Konsulent
+# https://www.skkonsulent.no
+
 User-agent: *
 Allow: /
+Disallow: /api/
 
+# Sitemaps
 Sitemap: https://www.skkonsulent.no/sitemap.xml
+
+# Crawl-delay (optional, be polite to crawlers)
+Crawl-delay: 1
