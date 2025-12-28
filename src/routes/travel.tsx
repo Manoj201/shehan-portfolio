@@ -338,8 +338,12 @@ function TravelPage() {
       </div>
 
       {/* Package Details Drawer */}
-      <Drawer open={isDrawerOpen} onOpenChange={setIsDrawerOpen}>
-        <DrawerContent className="max-h-[90vh]">
+      <Drawer
+        open={isDrawerOpen}
+        onOpenChange={setIsDrawerOpen}
+        direction="bottom"
+      >
+        <DrawerContent className="max-h-[90vh] rounded-t-[20px]">
           {selectedPackage && (
             <>
               <DrawerHeader className="relative border-b border-purple-500/20 pb-4">

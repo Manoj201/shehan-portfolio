@@ -1,15 +1,11 @@
-import { Link, useLocation, useRouter } from "@tanstack/react-router";
+import { Link } from "@tanstack/react-router";
 import { useTranslation } from "react-i18next";
 import { Button } from "@/components/ui/button";
-import { MessageCircle, Languages, ArrowLeft } from "lucide-react";
+import { MessageCircle, Languages } from "lucide-react";
 import logo from "@/assets/logo.png";
 
 export function AppHeader() {
   const { t, i18n } = useTranslation();
-  const location = useLocation();
-  const router = useRouter();
-
-  const isChildRoute = location.pathname !== "/";
 
   const toggleLanguage = () => {
     const newLang = i18n.language === "en" ? "no" : "en";
@@ -17,32 +13,16 @@ export function AppHeader() {
     localStorage.setItem("language", newLang);
   };
 
-  const handleBack = () => {
-    router.history.back();
-  };
-
   return (
     <header className="sticky top-0 z-50 w-full border-b border-border/40 bg-background/95 backdrop-blur supports-[backdrop-filter]:bg-background/60">
       <div className="container mx-auto flex h-20 items-center justify-between px-4">
-        <div className="flex items-center gap-3">
-          {isChildRoute && (
-            <Button
-              variant="ghost"
-              size="icon"
-              onClick={handleBack}
-              className="text-muted-foreground transition-colors hover:text-foreground"
-            >
-              <ArrowLeft className="h-5 w-5" />
-            </Button>
-          )}
-          <Link to="/" className="flex items-center">
-            <img
-              src={logo}
-              alt="SK Konsulent"
-              className="h-14 w-auto"
-            />
-          </Link>
-        </div>
+        <Link to="/" className="flex items-center">
+          <img
+            src={logo}
+            alt="SK Konsulent"
+            className="h-14 w-auto transition-opacity hover:opacity-80"
+          />
+        </Link>
 
         <div className="flex items-center gap-3">
           <Button
